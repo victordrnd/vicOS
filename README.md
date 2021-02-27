@@ -6,7 +6,7 @@
 `docker build build -t vicOS`
 
 * Create container
-docker run --rm -it -v "$pwd":/root/env vicOS
+`docker run --rm -it -v "$pwd":/root/env vicOS`
 
 * Compile kernel
 `make build-x86_64`
